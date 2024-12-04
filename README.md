@@ -38,3 +38,5 @@ A project for learning data processing, machine learning, and visualization. Thi
    ```bash
    git clone https://github.com/your-username/ML-Data-Insights-Project.git
    cd ML-Data-Insights-Project
+
+![image](https://github.com/user-attachments/assets/63c11514-f5cd-4b89-bfdf-64a106cd3620)
