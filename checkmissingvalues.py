@@ -1,4 +1,9 @@
 import pandas as pd
+import regexdata
+
+# Step 3: look for missing/empty values and assigning column names in dataset that has been regex'd (temp_housing.csv)
+
+print("----------Checking for missing values-----------")
 
 # Load the cleaned dataset
 temp_file_path = './data/temp_housing.csv'
