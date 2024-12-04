@@ -2,7 +2,10 @@ import pandas as pd
 import re
 import printUNCLEANdataset
 
-# Step 2: import data from /data/housing.csv, using regex, remove extra spaces, leaving only 1 space between columns. save new file as temp_housing.csv
+# Step 2: 
+
+# import data from /data/housing.csv, using regex, remove extra spaces, leaving only 1 space between columns. save new file as temp_housing.csv
+
 
 print("-----------Using Regex to remove extra spaces.-----------")
 # File path

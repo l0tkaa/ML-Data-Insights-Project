@@ -1,7 +1,9 @@
 import pandas as pd
 import os
 
-# Step 1: import file from os, read csv, if file does not exist, error. prints the first 10 rows of UNCLEAN dataset (housing.csv)
+# Step 1: 
+
+# import file from os, read csv, if file does not exist, error. prints the first 10 rows of UNCLEAN dataset (housing.csv)
 
 
 # Load the dataset
