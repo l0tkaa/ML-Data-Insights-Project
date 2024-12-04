@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 # Load the dataset
 # Replace 'your_dataset.csv' with the path to your dataset file
@@ -23,9 +24,9 @@ except Exception as e:
 
 
 # Verify dataset dimensions
-rows, coloumns = df.shape
+rows, columns = df.shape
 if rows < expected_rows or columns < expected_columns: 
-    print(f"Warning: The dataset has {rows} rows and {columns} columns, which is less than the expected {expected_rows} rows and {expected_columns} expected columns} columns.")
+    print(f"Warning: The dataset has {rows} rows and {columns} columns, which is less than the expected {expected_rows} rows and {expected_columns} expected columns columns.")
 else: 
     print(f"Dataset loaded successfully with {rows} rows and {columns} columns.")
 
