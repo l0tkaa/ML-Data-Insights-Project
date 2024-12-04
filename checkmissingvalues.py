@@ -41,3 +41,7 @@ data.columns = column_names
 # Display the first 5 rows with column names
 print("\n=== Dataset with Column Names ===")
 print(data.head())
+
+output_path = './data/final_cleaned_housing.csv'
+data.to_csv(output_path, index=False)
+print(f"\nUpdated dataset saved to {output_path}")
